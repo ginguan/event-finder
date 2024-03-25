@@ -1,0 +1,1037 @@
+[
+    {
+        "relevance": 0.9999969,
+        "id": "5tcWYFRdNwukG6TJJT",
+        "title": "UXin' | Mr. & Mrs. Smith of Software Development",
+        "description": "Sourced from predicthq.com - In the dynamic dance of software dev, where every pixel and line of code pirouettes towards perfection: UX & Agile are dancin'!",
+        "category": "conferences",
+        "labels": [
+            "conference",
+            "science",
+            "technology"
+        ],
+        "rank": 33,
+        "local_rank": 36,
+        "phq_attendance": 143,
+        "entities": [],
+        "duration": 7200,
+        "start": "2024-05-17T01:30:00Z",
+        "end": "2024-05-17T03:30:00Z",
+        "updated": "2024-03-21T12:53:11Z",
+        "first_seen": "2024-03-21T12:52:48Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1x2nujtttl@5x6-prz-26k"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-05-16",
+                        "value": 143,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-05-16",
+                        "value": 143,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 4406,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 3068,
+            "transportation": 1338
+        },
+        "phq_labels": [
+            {
+                "label": "science-and-technology",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "FjHAamRMDUqJ2Q4b3K",
+        "title": "Paradigm Shift+ | Neurodiversity, Innovation, and Design in UX",
+        "description": "Sourced from predicthq.com - Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things different",
+        "category": "conferences",
+        "labels": [
+            "business",
+            "conference"
+        ],
+        "rank": 34,
+        "local_rank": 38,
+        "phq_attendance": 164,
+        "entities": [],
+        "duration": 7200,
+        "start": "2024-05-01T02:00:00Z",
+        "end": "2024-05-01T04:00:00Z",
+        "updated": "2024-03-13T08:04:23Z",
+        "first_seen": "2024-03-13T08:01:57Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1x2nujtttl@5x6-prz-26k"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-30",
+                        "value": 164,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-30",
+                        "value": 164,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 5053,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 3518,
+            "transportation": 1534
+        },
+        "phq_labels": [
+            {
+                "label": "education-and-careers",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "3fboh4GgeeaiMkEMTy",
+        "title": "The Mechanics of Intimacy + F word",
+        "description": "Sourced from predicthq.com - A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+        "category": "performing-arts",
+        "labels": [
+            "concert",
+            "music",
+            "performing-arts"
+        ],
+        "rank": 30,
+        "local_rank": 33,
+        "phq_attendance": 100,
+        "entities": [
+            {
+                "entity_id": "ivMHSpixyQpEDxtydUFpEc",
+                "name": "The Mechanics of Intimacy + F word",
+                "type": "event-group",
+                "formatted_address": "149 West Hastings Street Fei & Milton Wong Experimental Theatre, Vancouver, BC V6B 1H4, Canada",
+                "category": "performing-arts",
+                "labels": [
+                    "concert",
+                    "event-group",
+                    "music",
+                    "performing-arts"
+                ],
+                "description": "A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+                "timezone": "America/Vancouver"
+            }
+        ],
+        "duration": 2700,
+        "start": "2024-04-05T04:00:00Z",
+        "end": "2024-04-05T04:45:00Z",
+        "updated": "2024-03-18T02:37:07Z",
+        "first_seen": "2024-02-23T04:05:03Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1xhm2gvt6z@5x6-psh-6zf"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-04",
+                        "value": 100,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-04",
+                        "value": 100,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 2652,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 1716,
+            "transportation": 935
+        },
+        "phq_labels": [
+            {
+                "label": "general-theatre",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "6PZoFuGhumv7RA9G92",
+        "title": "Grow Up + Pavement, Couch",
+        "description": "Sourced from predicthq.com - A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+        "category": "performing-arts",
+        "labels": [
+            "concert",
+            "music",
+            "performing-arts"
+        ],
+        "rank": 30,
+        "local_rank": 33,
+        "phq_attendance": 96,
+        "entities": [
+            {
+                "entity_id": "d8CAPmgYWgr3RA3qXuH8Nc",
+                "name": "Grow Up + Pavement, Couch",
+                "type": "event-group",
+                "formatted_address": "149 West Hastings Street Fei & Milton Wong Experimental Theatre, Vancouver, BC V6B 1H4, Canada",
+                "category": "performing-arts",
+                "labels": [
+                    "concert",
+                    "event-group",
+                    "music",
+                    "performing-arts"
+                ],
+                "description": "A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+                "timezone": "America/Vancouver"
+            }
+        ],
+        "duration": 2700,
+        "start": "2024-04-05T03:00:00Z",
+        "end": "2024-04-05T03:45:00Z",
+        "updated": "2024-02-23T05:23:15Z",
+        "first_seen": "2024-02-23T04:05:29Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1xhm2gvt6z@5x6-psh-6zf"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-04",
+                        "value": 96,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-04",
+                        "value": 96,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 2546,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 1647,
+            "transportation": 898
+        },
+        "phq_labels": [
+            {
+                "label": "general-theatre",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "4XV2bWzPJVfb277oij",
+        "title": "i like her + Spot",
+        "description": "Sourced from predicthq.com - A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+        "category": "performing-arts",
+        "labels": [
+            "concert",
+            "music",
+            "performing-arts"
+        ],
+        "rank": 30,
+        "local_rank": 33,
+        "phq_attendance": 101,
+        "entities": [
+            {
+                "entity_id": "e72h9wMnYzB2q9aPENX5S4",
+                "name": "i like her + Spot",
+                "type": "event-group",
+                "formatted_address": "149 West Hastings Street Fei & Milton Wong Experimental Theatre, Vancouver, BC V6B 1H4, Canada",
+                "category": "performing-arts",
+                "labels": [
+                    "concert",
+                    "event-group",
+                    "music",
+                    "performing-arts"
+                ],
+                "description": "A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+                "timezone": "America/Vancouver"
+            }
+        ],
+        "duration": 2700,
+        "start": "2024-04-04T04:00:00Z",
+        "end": "2024-04-04T04:45:00Z",
+        "updated": "2024-02-23T06:49:48Z",
+        "first_seen": "2024-02-23T06:17:00Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1xhm2gvt6z@5x6-psh-6zf"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-03",
+                        "value": 101,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-03",
+                        "value": 101,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 2678,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 1733,
+            "transportation": 945
+        },
+        "phq_labels": [
+            {
+                "label": "general-theatre",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "tAqZHEHyA4eVYxfuBu",
+        "title": "The Walk of Shame + Bass Humm",
+        "description": "Sourced from predicthq.com - A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+        "category": "performing-arts",
+        "labels": [
+            "concert",
+            "music",
+            "performing-arts"
+        ],
+        "rank": 30,
+        "local_rank": 33,
+        "phq_attendance": 97,
+        "entities": [
+            {
+                "entity_id": "Pzq97UjKztjqY36qHMTv7k",
+                "name": "The Walk of Shame + Bass Humm",
+                "type": "event-group",
+                "formatted_address": "149 West Hastings Street Fei & Milton Wong Experimental Theatre, Vancouver, BC V6B 1H4, Canada",
+                "category": "performing-arts",
+                "labels": [
+                    "concert",
+                    "event-group",
+                    "music",
+                    "performing-arts"
+                ],
+                "description": "A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+                "timezone": "America/Vancouver"
+            }
+        ],
+        "duration": 2700,
+        "start": "2024-04-04T03:00:00Z",
+        "end": "2024-04-04T03:45:00Z",
+        "updated": "2024-02-23T07:08:15Z",
+        "first_seen": "2024-02-23T06:17:15Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1xhm2gvt6z@5x6-psh-6zf"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-03",
+                        "value": 97,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-03",
+                        "value": 97,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 2572,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 1665,
+            "transportation": 907
+        },
+        "phq_labels": [
+            {
+                "label": "general-theatre",
+                "weight": 0.72
+            },
+            {
+                "label": "concert",
+                "weight": 0.28
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "9ycGWFbKhQQrSUYKbU",
+        "title": "Tommy! + Alienationem",
+        "description": "Sourced from predicthq.com - A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+        "category": "performing-arts",
+        "labels": [
+            "concert",
+            "music",
+            "performing-arts"
+        ],
+        "rank": 30,
+        "local_rank": 33,
+        "phq_attendance": 101,
+        "entities": [
+            {
+                "entity_id": "YD3BZLBUwakt7dJpwwDu8u",
+                "name": "Tommy! + Alienationem",
+                "type": "event-group",
+                "formatted_address": "149 West Hastings Street Fei & Milton Wong Experimental Theatre, Vancouver, BC V6B 1H4, Canada",
+                "category": "performing-arts",
+                "labels": [
+                    "concert",
+                    "event-group",
+                    "music",
+                    "performing-arts"
+                ],
+                "description": "A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+                "timezone": "America/Vancouver"
+            }
+        ],
+        "duration": 2700,
+        "start": "2024-04-03T04:00:00Z",
+        "end": "2024-04-03T04:45:00Z",
+        "updated": "2024-02-23T08:44:45Z",
+        "first_seen": "2024-02-23T08:42:19Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1xhm2gvt6z@5x6-psh-6zf"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-02",
+                        "value": 101,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-02",
+                        "value": 101,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 2678,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 1733,
+            "transportation": 945
+        },
+        "phq_labels": [
+            {
+                "label": "general-theatre",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999969,
+        "id": "8jQx2vzgYGeaUq4GND",
+        "title": "Vitreous Bodies + Drum Vs The Feathers",
+        "description": "Sourced from predicthq.com - A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+        "category": "performing-arts",
+        "labels": [
+            "concert",
+            "music",
+            "performing-arts"
+        ],
+        "rank": 30,
+        "local_rank": 33,
+        "phq_attendance": 96,
+        "entities": [
+            {
+                "entity_id": "tjHwt7hCkBrYHSQ9FwL4wc",
+                "name": "Vitreous Bodies + Drum Vs The Feathers",
+                "type": "event-group",
+                "formatted_address": "149 West Hastings Street Fei & Milton Wong Experimental Theatre, Vancouver, BC V6B 1H4, Canada",
+                "category": "performing-arts",
+                "labels": [
+                    "concert",
+                    "event-group",
+                    "music",
+                    "performing-arts"
+                ],
+                "description": "A festival of BFA capstone projects created by Theatre & Performance and Dance majors at SFU's SCA.",
+                "timezone": "America/Vancouver"
+            }
+        ],
+        "duration": 2700,
+        "start": "2024-04-03T03:00:00Z",
+        "end": "2024-04-03T03:45:00Z",
+        "updated": "2024-03-22T04:20:09Z",
+        "first_seen": "2024-02-23T06:17:00Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.1207375,
+            49.2827291
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.1207375,
+                    49.2827291
+                ],
+                "type": "Point"
+            },
+            "placekey": "1xhm2gvt6z@5x6-psh-6zf"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-02",
+                        "value": 96,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-04-02",
+                        "value": 96,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 2546,
+        "predicted_event_spend_industries": {
+            "accommodation": 0,
+            "hospitality": 1647,
+            "transportation": 898
+        },
+        "phq_labels": [
+            {
+                "label": "general-theatre",
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999179,
+        "id": "GtDvGwLB64zPNDwsnP",
+        "title": "The Teskey Brothers with The Dip",
+        "description": "Sourced from predicthq.com",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "music"
+        ],
+        "rank": 63,
+        "local_rank": 66,
+        "phq_attendance": 4583,
+        "entities": [
+            {
+                "entity_id": "RaW24UgTExsY2fJZquQz4k",
+                "name": "UBC - Doug Mitchell Thunderbird Sports Centre",
+                "type": "venue",
+                "formatted_address": "6066 Thunderbird Boulevard\nVancouver, V6T1Z3\nCanada"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-06-10T02:30:00Z",
+        "end": "2024-06-10T02:30:00Z",
+        "predicted_end": "2024-06-10T07:00:00Z",
+        "updated": "2024-03-23T18:48:49Z",
+        "first_seen": "2024-02-21T18:29:00Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.121,
+            49.2827
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.121,
+                    49.2827
+                ],
+                "type": "Point"
+            },
+            "placekey": "zzy-223@5x6-prk-47q"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-08",
+                        "value": 917,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-09",
+                        "value": 4583,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-10",
+                        "value": 459,
+                        "position": "lagging"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-07",
+                        "value": 92,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-08",
+                        "value": 1146,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-09",
+                        "value": 4583,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-10",
+                        "value": 138,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 394252,
+        "predicted_event_spend_industries": {
+            "accommodation": 65742,
+            "hospitality": 255671,
+            "transportation": 72838
+        },
+        "phq_labels": [
+            {
+                "label": "hip-hop-and-rnb-and-soul",
+                "weight": 0.51
+            },
+            {
+                "label": "jazz-and-classical",
+                "weight": 0.38
+            },
+            {
+                "label": "rock",
+                "weight": 0.1
+            }
+        ]
+    },
+    {
+        "relevance": 0.9999179,
+        "id": "Ed3kdSv3oNxzanZhgt",
+        "title": "The Postal Service and Death Cab for Cutie with Slow Pulp",
+        "description": "Sourced from predicthq.com",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "music"
+        ],
+        "rank": 65,
+        "local_rank": 68,
+        "phq_attendance": 5377,
+        "entities": [
+            {
+                "entity_id": "RaW24UgTExsY2fJZquQz4k",
+                "name": "UBC - Doug Mitchell Thunderbird Sports Centre",
+                "type": "venue",
+                "formatted_address": "6066 Thunderbird Boulevard\nVancouver, V6T1Z3\nCanada"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-05-15T03:00:00Z",
+        "end": "2024-05-15T03:00:00Z",
+        "predicted_end": "2024-05-15T07:10:00Z",
+        "updated": "2024-03-20T16:57:17Z",
+        "first_seen": "2024-02-21T18:25:00Z",
+        "timezone": "America/Vancouver",
+        "location": [
+            -123.121,
+            49.2827
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -123.121,
+                    49.2827
+                ],
+                "type": "Point"
+            },
+            "placekey": "zzy-223@5x6-prk-47q"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-05-13",
+                        "value": 1076,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-05-14",
+                        "value": 5377,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-05-15",
+                        "value": 538,
+                        "position": "lagging"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-05-12",
+                        "value": 108,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-05-13",
+                        "value": 1345,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-05-14",
+                        "value": 5377,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-05-15",
+                        "value": 162,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "CA",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6251999",
+                "5909050",
+                "6178582"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 462556,
+        "predicted_event_spend_industries": {
+            "accommodation": 77131,
+            "hospitality": 299966,
+            "transportation": 85458
+        },
+        "phq_labels": [
+            {
+                "label": "rock",
+                "weight": 0.6
+            },
+            {
+                "label": "pop",
+                "weight": 0.4
+            }
+        ]
+    }
+]

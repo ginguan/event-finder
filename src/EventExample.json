@@ -1,0 +1,1918 @@
+[
+    {
+        "relevance": 0.0,
+        "id": "35MFvJk3xojNxvCrR3",
+        "title": "Pam McCoy",
+        "description": "Sourced from predicthq.com",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "m'ic"
+        ],
+        "rank": 36,
+        "local_rank": 52,
+        "phq_attendance": 199,
+        "entities": [],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T04:10:00Z",
+        "updated": "2024-02-25T05:38:58Z",
+        "first_seen": "2024-02-25T05:38:18Z",
+        "timezone": "America/New_York",
+        "location": [
+            -73.2125015,
+            44.4758339
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -73.2125015,
+                    44.4758339
+                ],
+                "type": "Point"
+            },
+            "placekey": "1ymttrosf7@662-2vd-qzz"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 199,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 199,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5242283",
+                "5234861",
+                "5234372"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 3925,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 0,
+            "hospitality": 2345,
+            "transportation": 1580
+        }
+    },
+    {
+        "relevance": 0.0,
+        "id": "36ajB2pu7U3npupD6X",
+        "title": "The Warped Tour Band",
+        "alternate_titles": [
+            "The Warped Tour Band at Mickey s Black Box",
+            "Warped Tour Band (Concert)"
+        ],
+        "description": "Sourced from predicthq.com - Performing all of your favorite pop-punk and emo songs from the late 90's through the new millennium! Brought to you by Big Fan Presents",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "m'ic"
+        ],
+        "rank": 46,
+        "local_rank": 77,
+        "phq_attendance": 666,
+        "entities": [
+            {
+                "entity_id": "36FyPCyCevyzrtCwPJ8yBEz",
+                "name": "Mickey's Black Box",
+                "type": "venue",
+                "formatted_address": "101 Rock Lititz Boulevard\nLititz, PA\nUnited States of America"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T04:10:00Z",
+        "updated": "2024-03-20T05:14:45Z",
+        "first_seen": "2024-01-25T01:06:35Z",
+        "timezone": "America/New_York",
+        "location": [
+            -76.311384,
+            40.17629
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -76.311384,
+                    40.17629
+                ],
+                "type": "Point"
+            },
+            "placekey": "22f-222@63s-9xs-p9z"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 666,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-20",
+                        "value": 100,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 666,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 20,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "6254927",
+                "5197085",
+                "5218047"
+            ],
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "6254927",
+                "5197085",
+                "5197079"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 21581,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 4028,
+            "hospitality": 10597,
+            "transportation": 6955
+        },
+        "phq_labels": [
+            {
+                "label": "pop",
+                "weight": 0.5
+            },
+            {
+                "label": "rock",
+                "weight": 0.5
+            }
+        ]
+    },
+    {
+        "relevance": 0.0,
+        "id": "38evWsAaDKBCrkdgPs",
+        "title": "Devon Sants",
+        "description": "Sourced from predicthq.com",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "m'ic"
+        ],
+        "rank": 53,
+        "local_rank": 85,
+        "phq_attendance": 1473,
+        "entities": [
+            {
+                "entity_id": "DRzAHDdtFqjrvGbQ4BA5Eh",
+                "name": "Chute Roosters",
+                "type": "venue",
+                "formatted_address": "Hill City\nUnited States of America"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T04:10:00Z",
+        "updated": "2024-03-18T22:48:33Z",
+        "first_seen": "2024-03-18T22:48:23Z",
+        "timezone": "America/Denver",
+        "location": [
+            -103.5627672,
+            43.9350817
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -103.5627672,
+                    43.9350817
+                ],
+                "type": "Point"
+            },
+            "placekey": "@5qj-74v-gkz"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-20",
+                        "value": 295,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 1473,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 148,
+                        "position": "lagging"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-20",
+                        "value": 221,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 1473,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 45,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5769223",
+                "5767840",
+                "5765609"
+            ],
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5769223",
+                "5763916",
+                "5763910"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 47617,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 10182,
+            "hospitality": 22742,
+            "transportation": 14692
+        }
+    },
+    {
+        "relevance": 0.0,
+        "id": "3Ajh3PxcKWC6gCjyyr",
+        "title": "SB Sheriff's CCW Range Re-qualification - ARRIVE at 5PM",
+        "description": "Sourced from predicthq.com",
+        "category": "community",
+        "labels": [
+            "community",
+            "workshop"
+        ],
+        "rank": 27,
+        "local_rank": 56,
+        "phq_attendance": 70,
+        "entities": [],
+        "duration": 3600,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T01:00:00Z",
+        "updated": "2024-02-26T21:13:05Z",
+        "first_seen": "2024-01-15T23:19:14Z",
+        "timezone": "America/Los_Angeles",
+        "location": [
+            -117.28758,
+            34.55383
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -117.28758,
+                    34.55383
+                ],
+                "type": "Point"
+            },
+            "placekey": "222-222@5z5-kh7-j7q"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 70,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 70,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5332921",
+                "5391726",
+                "5365960"
+            ],
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5332921",
+                "5391726",
+                "5391710"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 918,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 0,
+            "hospitality": 603,
+            "transportation": 314
+        },
+        "phq_labels": [
+            {
+                "label": "education",
+                "weight": 1.0
+            }
+        ]
+    },
+    {
+        "relevance": 0.0,
+        "id": "3BMQ9BMuutMLmgKkbx",
+        "title": "DAVE LANDAU",
+        "description": "Sourced from predicthq.com",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "m'ic"
+        ],
+        "rank": 42,
+        "local_rank": 61,
+        "phq_attendance": 412,
+        "entities": [
+            {
+                "entity_id": "FCFeAjnGsfGSHQVcB6gYAd",
+                "name": "LAUGH IT UP COMEDY CLUB",
+                "type": "venue",
+                "formatted_address": "35 Main Street\nPoughkeepsie, NY\nUnited States of America"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T03:40:00Z",
+        "updated": "2024-03-08T06:14:22Z",
+        "first_seen": "2024-02-23T08:36:51Z",
+        "timezone": "America/New_York",
+        "location": [
+            -73.9387835,
+            41.7060393
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -73.9387835,
+                    41.7060393
+                ],
+                "type": "Point"
+            },
+            "placekey": "222-227@629-n26-9mk"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 412,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-20",
+                        "value": 62,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 412,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 13,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5128638",
+                "5115580",
+                "7153367"
+            ],
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5128638",
+                "5115580",
+                "5132143"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 15011,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 3573,
+            "hospitality": 7621,
+            "transportation": 3816
+        },
+        "phq_labels": [
+            {
+                "label": "other",
+                "weight": 1.0
+            }
+        ]
+    },
+    {
+        "relevance": 0.0,
+        "id": "3JwoQRf6CdUoGVm7gN",
+        "title": "The Fab Four - The Ultimate Beatles Tribute",
+        "description": "Sourced from predicthq.com",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "m'ic"
+        ],
+        "rank": 52,
+        "local_rank": 78,
+        "phq_attendance": 1211,
+        "entities": [
+            {
+                "entity_id": "dB6rfWcyzxvnTkgKUjdRAp",
+                "name": "Rose M'ic Center at The Heights",
+                "type": "venue",
+                "formatted_address": "6800 Executive Boulevard\nHuber Heights, OH 45424\nUnited States of America"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T04:10:00Z",
+        "updated": "2024-03-22T19:01:20Z",
+        "first_seen": "2024-02-06T01:07:04Z",
+        "timezone": "America/New_York",
+        "location": [
+            -84.1110193,
+            39.8694403
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -84.1110193,
+                    39.8694403
+                ],
+                "type": "Point"
+            },
+            "placekey": "222-222@63h-jms-fmk"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-20",
+                        "value": 243,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 1211,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 122,
+                        "position": "lagging"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-20",
+                        "value": 182,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 1211,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 37,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5165418",
+                "4518598",
+                "4525806"
+            ],
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5165418",
+                "4518598",
+                "4509884"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 35667,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 6150,
+            "hospitality": 16369,
+            "transportation": 13147
+        },
+        "phq_labels": [
+            {
+                "label": "rock",
+                "weight": 0.67
+            },
+            {
+                "label": "pop",
+                "weight": 0.33
+            }
+        ]
+    },
+    {
+        "relevance": 0.0,
+        "id": "3PZrDXiq5aE4j9RacK",
+        "title": "The Big Emo Prom - Rochester, NY",
+        "description": "Sourced from predicthq.com - From My Chemical Romance & Dashboard Confessional, to classic Fall Out Boy & Blink-182, this prom is a celebration of the early 2000's!",
+        "category": "concerts",
+        "labels": [
+            "concert",
+            "m'ic"
+        ],
+        "rank": 27,
+        "local_rank": 46,
+        "phq_attendance": 74,
+        "entities": [],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T04:10:00Z",
+        "updated": "2024-03-21T10:30:08Z",
+        "first_seen": "2024-03-21T07:20:03Z",
+        "timezone": "America/New_York",
+        "location": [
+            -77.5686607,
+            43.1559961
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    -77.5686607,
+                    43.1559961
+                ],
+                "type": "Point"
+            },
+            "placekey": "22s-225@665-982-jy9"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 74,
+                        "position": "event_day"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 74,
+                        "position": "event_day"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5128638",
+                "5127305",
+                "5110159"
+            ],
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5128638",
+                "5127305",
+                "5134086"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 1402,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 0,
+            "hospitality": 835,
+            "transportation": 566
+        }
+    },
+    {
+        "relevance": 0.0,
+        "id": "3Sf7AE6mrDvJjQhjaz",
+        "title": "Huntington Beach City Elementary School District - Summer Break",
+        "description": "Sourced from predicthq.com",
+        "category": "school-holidays",
+        "labels": [
+            "holiday",
+            "school",
+            "summer-holiday"
+        ],
+        "rank": 67,
+        "local_rank": 23,
+        "phq_attendance": 7068,
+        "entities": [],
+        "duration": 6307199,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-09-02T23:59:59Z",
+        "updated": "2024-03-19T14:39:26Z",
+        "first_seen": "2023-03-21T14:02:58Z",
+        "timezone": null,
+        "location": [
+            -117.9961624963,
+            33.6723396855
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -118.06108416990662,
+                                33.71171501721223
+                            ],
+                            [
+                                -118.06024358498576,
+                                33.71164867197812
+                            ],
+                            [
+                                -118.06043548323673,
+                                33.71213770644127
+                            ],
+                            [
+                                -118.06178616968316,
+                                33.71301201666229
+                            ],
+                            [
+                                -118.06268616971383,
+                                33.712413017035146
+                            ],
+                            [
+                                -118.06288416890278,
+                                33.71261501734549
+                            ],
+                            [
+                                -118.06188516971942,
+                                33.71321401696713
+                            ],
+                            [
+                                -118.0623811690793,
+                                33.713813016671274
+                            ],
+                            [
+                                -118.06298416893789,
+                                33.71341201714311
+                            ],
+                            [
+                                -118.06338116917635,
+                                33.7136140165651
+                            ],
+                            [
+                                -118.06358716871715,
+                                33.71401501703722
+                            ],
+                            [
+                                -118.06228216896392,
+                                33.714614016642074
+                            ],
+                            [
+                                -118.06438016878533,
+                                33.719012015832234
+                            ],
+                            [
+                                -118.06588316872175,
+                                33.71741401614677
+                            ],
+                            [
+                                -118.06537916808738,
+                                33.716910016315744
+                            ],
+                            [
+                                -118.06568516870458,
+                                33.71631101665583
+                            ],
+                            [
+                                -118.06648616859633,
+                                33.71681101631919
+                            ],
+                            [
+                                -118.06688216793684,
+                                33.71641401696367
+                            ],
+                            [
+                                -118.06668416880295,
+                                33.715514016918775
+                            ],
+                            [
+                                -118.06758416784749,
+                                33.71601401658756
+                            ],
+                            [
+                                -118.06730216832997,
+                                33.716651017097675
+                            ],
+                            [
+                                -118.06848416781501,
+                                33.71621201675262
+                            ],
+                            [
+                                -118.07208516754125,
+                                33.71941301671824
+                            ],
+                            [
+                                -118.07188716735816,
+                                33.720412016798946
+                            ],
+                            [
+                                -118.07308516649422,
+                                33.722312016137344
+                            ],
+                            [
+                                -118.07108616719765,
+                                33.72331101611866
+                            ],
+                            [
+                                -118.07338216647652,
+                                33.72451301578308
+                            ],
+                            [
+                                -118.07448116665769,
+                                33.72391001598286
+                            ],
+                            [
+                                -118.07428316656129,
+                                33.72381101591418
+                            ],
+                            [
+                                -118.0745801667333,
+                                33.723613016714566
+                            ],
+                            [
+                                -118.07664016595064,
+                                33.72494001672054
+                            ],
+                            [
+                                -118.0777851655495,
+                                33.724311016626125
+                            ],
+                            [
+                                -118.07795345672446,
+                                33.724518030104754
+                            ],
+                            [
+                                -118.07987244723095,
+                                33.72298083570543
+                            ],
+                            [
+                                -118.07938716554617,
+                                33.72261301684224
+                            ],
+                            [
+                                -118.07908216599273,
+                                33.72171301679148
+                            ],
+                            [
+                                -118.06678316915523,
+                                33.71171501752655
+                            ],
+                            [
+                                -118.06488316914599,
+                                33.7110130175032
+                            ],
+                            [
+                                -118.05488117167299,
+                                33.701713018100975
+                            ],
+                            [
+                                -118.0296811777342,
+                                33.67641401930828
+                            ],
+                            [
+                                -118.01778018022594,
+                                33.66731501915939
+                            ],
+                            [
+                                -118.0113781814154,
+                                33.66271501943524
+                            ],
+                            [
+                                -118.00303918372285,
+                                33.655768019555886
+                            ],
+                            [
+                                -117.97088219071577,
+                                33.63651602068186
+                            ],
+                            [
+                                -117.95857063045179,
+                                33.629483561588756
+                            ],
+                            [
+                                -117.95829599999999,
+                                33.631118000000036
+                            ],
+                            [
+                                -117.957989,
+                                33.63100300000002
+                            ],
+                            [
+                                -117.95822499999998,
+                                33.63049100000003
+                            ],
+                            [
+                                -117.95788403357298,
+                                33.62992344810947
+                            ],
+                            [
+                                -117.957418,
+                                33.63102299999999
+                            ],
+                            [
+                                -117.9571791937677,
+                                33.63101502048063
+                            ],
+                            [
+                                -117.95450519324731,
+                                33.64208101858089
+                            ],
+                            [
+                                -117.95407831019388,
+                                33.641857413142105
+                            ],
+                            [
+                                -117.95383999999999,
+                                33.642815
+                            ],
+                            [
+                                -117.95327299999997,
+                                33.643704000000014
+                            ],
+                            [
+                                -117.94513199999997,
+                                33.67238599999996
+                            ],
+                            [
+                                -117.97995000000002,
+                                33.672149999999974
+                            ],
+                            [
+                                -117.98021999999997,
+                                33.69399000000003
+                            ],
+                            [
+                                -117.98884,
+                                33.69399599999999
+                            ],
+                            [
+                                -117.98940299999994,
+                                33.69387100000004
+                            ],
+                            [
+                                -117.99487000000002,
+                                33.69390999999998
+                            ],
+                            [
+                                -117.99666299999997,
+                                33.69377699999999
+                            ],
+                            [
+                                -117.99674899999998,
+                                33.69406300000003
+                            ],
+                            [
+                                -117.99697700000002,
+                                33.69396999999997
+                            ],
+                            [
+                                -117.99721399999999,
+                                33.694087999999965
+                            ],
+                            [
+                                -117.99744500000001,
+                                33.69387100000004
+                            ],
+                            [
+                                -118.01499999999999,
+                                33.69367000000002
+                            ],
+                            [
+                                -118.01504999999995,
+                                33.698100000000004
+                            ],
+                            [
+                                -118.01666000000003,
+                                33.69836999999996
+                            ],
+                            [
+                                -118.01802999999995,
+                                33.69880000000001
+                            ],
+                            [
+                                -118.02046000000003,
+                                33.70029000000002
+                            ],
+                            [
+                                -118.02201000000002,
+                                33.700830000000025
+                            ],
+                            [
+                                -118.02334000000002,
+                                33.70096000000003
+                            ],
+                            [
+                                -118.02628,
+                                33.700879999999984
+                            ],
+                            [
+                                -118.02749000000001,
+                                33.700559999999975
+                            ],
+                            [
+                                -118.02861999999999,
+                                33.7
+                            ],
+                            [
+                                -118.02999100000001,
+                                33.701024999999994
+                            ],
+                            [
+                                -118.03175700000003,
+                                33.699562
+                            ],
+                            [
+                                -118.03282500000002,
+                                33.70089699999997
+                            ],
+                            [
+                                -118.05015399999995,
+                                33.70075900000001
+                            ],
+                            [
+                                -118.04998200000001,
+                                33.708029999999965
+                            ],
+                            [
+                                -118.05115200000002,
+                                33.707015000000006
+                            ],
+                            [
+                                -118.05236799999999,
+                                33.708009999999994
+                            ],
+                            [
+                                -118.05878599999998,
+                                33.70807600000004
+                            ],
+                            [
+                                -118.06016051269901,
+                                33.71140584611097
+                            ],
+                            [
+                                -118.06108416990662,
+                                33.71171501721223
+                            ]
+                        ]
+                    ],
+                    [
+                        [
+                            [
+                                -118.07178016700948,
+                                33.71951201675912
+                            ],
+                            [
+                                -118.06856816803878,
+                                33.71670001672372
+                            ],
+                            [
+                                -118.06831716819218,
+                                33.716765017002125
+                            ],
+                            [
+                                -118.06808016809067,
+                                33.71681501659113
+                            ],
+                            [
+                                -118.06938516767036,
+                                33.718413016431576
+                            ],
+                            [
+                                -118.07078116784965,
+                                33.71981301616168
+                            ],
+                            [
+                                -118.07158216688146,
+                                33.71981301620591
+                            ],
+                            [
+                                -118.07178016700948,
+                                33.71951201675912
+                            ]
+                        ]
+                    ],
+                    [
+                        [
+                            [
+                                -118.07018616732515,
+                                33.721911016415916
+                            ],
+                            [
+                                -118.07108616733993,
+                                33.72151101605073
+                            ],
+                            [
+                                -118.07138416751069,
+                                33.721911016482
+                            ],
+                            [
+                                -118.07048316744974,
+                                33.72231201599372
+                            ],
+                            [
+                                -118.07088016676529,
+                                33.72281201653407
+                            ],
+                            [
+                                -118.07228416657085,
+                                33.72221301603545
+                            ],
+                            [
+                                -118.0714831676418,
+                                33.720912016395786
+                            ],
+                            [
+                                -118.07144516686124,
+                                33.720076016606036
+                            ],
+                            [
+                                -118.07099516778209,
+                                33.71990901609324
+                            ],
+                            [
+                                -118.07078116782877,
+                                33.720077016615356
+                            ],
+                            [
+                                -118.06916316735064,
+                                33.718566016263225
+                            ],
+                            [
+                                -118.06908716747864,
+                                33.71828001659199
+                            ],
+                            [
+                                -118.06805016847633,
+                                33.717254016999775
+                            ],
+                            [
+                                -118.06787416851613,
+                                33.71684201692252
+                            ],
+                            [
+                                -118.067286168426,
+                                33.717513016281885
+                            ],
+                            [
+                                -118.06768416777973,
+                                33.718112016879985
+                            ],
+                            [
+                                -118.06818716843962,
+                                33.71771101644695
+                            ],
+                            [
+                                -118.06858416777081,
+                                33.71801301687197
+                            ],
+                            [
+                                -118.06788116781425,
+                                33.71841301634862
+                            ],
+                            [
+                                -118.06828616749746,
+                                33.71891301688942
+                            ],
+                            [
+                                -118.06878216781996,
+                                33.71871101661744
+                            ],
+                            [
+                                -118.06918616747289,
+                                33.719012016097444
+                            ],
+                            [
+                                -118.06848516761598,
+                                33.719314016461894
+                            ],
+                            [
+                                -118.06888116777716,
+                                33.71991201611463
+                            ],
+                            [
+                                -118.06968216773988,
+                                33.71951201664339
+                            ],
+                            [
+                                -118.070087167431,
+                                33.71991201618115
+                            ],
+                            [
+                                -118.06918616737003,
+                                33.72031301659216
+                            ],
+                            [
+                                -118.06948416752508,
+                                33.720912016285475
+                            ],
+                            [
+                                -118.07058316769808,
+                                33.720412016727
+                            ],
+                            [
+                                -118.07068216771845,
+                                33.72081301629389
+                            ],
+                            [
+                                -118.06978116764984,
+                                33.72131201671665
+                            ],
+                            [
+                                -118.07018616732515,
+                                33.721911016415916
+                            ]
+                        ]
+                    ],
+                    [
+                        [
+                            [
+                                -118.06708016789123,
+                                33.71831001606272
+                            ],
+                            [
+                                -118.06678316864203,
+                                33.718211016888
+                            ],
+                            [
+                                -118.06488416846501,
+                                33.720214016297085
+                            ],
+                            [
+                                -118.06968216749483,
+                                33.722613016306575
+                            ],
+                            [
+                                -118.06988116765324,
+                                33.72251001607592
+                            ],
+                            [
+                                -118.06708016789123,
+                                33.71831001606272
+                            ]
+                        ]
+                    ]
+                ],
+                "type": "MultiPolygon"
+            }
+        },
+        "scope": "county",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5332921",
+                "5379524"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "phq_labels": [
+            {
+                "label": "holiday",
+                "weight": 0.5
+            },
+            {
+                "label": "summer-holiday",
+                "weight": 0.5
+            }
+        ]
+    },
+    {
+        "relevance": 0.0,
+        "id": "3'XomUAcNX93YDMpb",
+        "title": "Ramsey School District - Summer Break",
+        "description": "Sourced from predicthq.com",
+        "category": "school-holidays",
+        "labels": [
+            "holiday",
+            "school",
+            "summer-holiday"
+        ],
+        "rank": 59,
+        "local_rank": 72,
+        "phq_attendance": 2731,
+        "entities": [],
+        "duration": 6307199,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-09-02T23:59:59Z",
+        "updated": "2024-02-20T13:31:53Z",
+        "first_seen": "2023-03-28T13:46:14Z",
+        "timezone": null,
+        "location": [
+            -74.1453882474,
+            41.0594827076
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -74.11572799999999,
+                            41.072742
+                        ],
+                        [
+                            -74.11855099999997,
+                            41.07339100000005
+                        ],
+                        [
+                            -74.11862399999998,
+                            41.07290599999998
+                        ],
+                        [
+                            -74.12453099999996,
+                            41.07375000000001
+                        ],
+                        [
+                            -74.12463500000004,
+                            41.07395799999998
+                        ],
+                        [
+                            -74.124147,
+                            41.07410799999996
+                        ],
+                        [
+                            -74.12425900000002,
+                            41.07486000000001
+                        ],
+                        [
+                            -74.13218999999995,
+                            41.077621000000015
+                        ],
+                        [
+                            -74.13604599999996,
+                            41.07816300000001
+                        ],
+                        [
+                            -74.15216499999997,
+                            41.07678900000001
+                        ],
+                        [
+                            -74.15641000000002,
+                            41.07626699999998
+                        ],
+                        [
+                            -74.15660699999998,
+                            41.07598300000003
+                        ],
+                        [
+                            -74.15688599999996,
+                            41.07591799999998
+                        ],
+                        [
+                            -74.15731399999993,
+                            41.07527799999996
+                        ],
+                        [
+                            -74.15791899999999,
+                            41.074892
+                        ],
+                        [
+                            -74.15838200000002,
+                            41.07389799999999
+                        ],
+                        [
+                            -74.158736,
+                            41.07371299999996
+                        ],
+                        [
+                            -74.15939799999998,
+                            41.072792999999955
+                        ],
+                        [
+                            -74.160316,
+                            41.06988299999997
+                        ],
+                        [
+                            -74.16106299999998,
+                            41.06645300000003
+                        ],
+                        [
+                            -74.16919700000003,
+                            41.06507499999997
+                        ],
+                        [
+                            -74.171143,
+                            41.06530200000001
+                        ],
+                        [
+                            -74.171877,
+                            41.05946499999995
+                        ],
+                        [
+                            -74.171861,
+                            41.05901400000004
+                        ],
+                        [
+                            -74.171536,
+                            41.05823299999998
+                        ],
+                        [
+                            -74.17168799999999,
+                            41.05788800000004
+                        ],
+                        [
+                            -74.17161999999996,
+                            41.05684599999997
+                        ],
+                        [
+                            -74.17268199999998,
+                            41.05469300000001
+                        ],
+                        [
+                            -74.17298699999998,
+                            41.054660000000034
+                        ],
+                        [
+                            -74.17393899999999,
+                            41.05396899999996
+                        ],
+                        [
+                            -74.17431199999993,
+                            41.053918
+                        ],
+                        [
+                            -74.17468399999998,
+                            41.05350600000002
+                        ],
+                        [
+                            -74.17468,
+                            41.05316299999998
+                        ],
+                        [
+                            -74.17487899999995,
+                            41.052915999999975
+                        ],
+                        [
+                            -74.17576999999994,
+                            41.05267200000004
+                        ],
+                        [
+                            -74.17593199999993,
+                            41.05243099999999
+                        ],
+                        [
+                            -74.17577099999994,
+                            41.05220400000004
+                        ],
+                        [
+                            -74.17607099999998,
+                            41.05199900000003
+                        ],
+                        [
+                            -74.17622599999993,
+                            41.051651000000014
+                        ],
+                        [
+                            -74.17621699999998,
+                            41.05068099999996
+                        ],
+                        [
+                            -74.17578800000001,
+                            41.05038399999999
+                        ],
+                        [
+                            -74.17550899999995,
+                            41.04992100000005
+                        ],
+                        [
+                            -74.17496299999996,
+                            41.04961499999995
+                        ],
+                        [
+                            -74.17385099999998,
+                            41.04825900000002
+                        ],
+                        [
+                            -74.17230099999998,
+                            41.04720500000004
+                        ],
+                        [
+                            -74.16728100000003,
+                            41.04607499999998
+                        ],
+                        [
+                            -74.16611899999998,
+                            41.045130000000036
+                        ],
+                        [
+                            -74.16535399999992,
+                            41.04476199999997
+                        ],
+                        [
+                            -74.16546900000003,
+                            41.04368300000004
+                        ],
+                        [
+                            -74.16533699999994,
+                            41.043528
+                        ],
+                        [
+                            -74.15021999999999,
+                            41.040400999999996
+                        ],
+                        [
+                            -74.15020699999997,
+                            41.040791000000034
+                        ],
+                        [
+                            -74.14979299999999,
+                            41.04098799999999
+                        ],
+                        [
+                            -74.150173,
+                            41.04143300000003
+                        ],
+                        [
+                            -74.14995499999998,
+                            41.04158100000003
+                        ],
+                        [
+                            -74.149484,
+                            41.041553000000015
+                        ],
+                        [
+                            -74.14899199999999,
+                            41.04222300000003
+                        ],
+                        [
+                            -74.14906299999998,
+                            41.042594999999984
+                        ],
+                        [
+                            -74.14814100000001,
+                            41.04312499999997
+                        ],
+                        [
+                            -74.14741599999996,
+                            41.04319399999999
+                        ],
+                        [
+                            -74.14261199999993,
+                            41.04103199999998
+                        ],
+                        [
+                            -74.14203899999995,
+                            41.042213999999994
+                        ],
+                        [
+                            -74.14215799999994,
+                            41.042247999999965
+                        ],
+                        [
+                            -74.14142699999994,
+                            41.04339200000003
+                        ],
+                        [
+                            -74.14122900000001,
+                            41.043313999999974
+                        ],
+                        [
+                            -74.140819,
+                            41.043931000000036
+                        ],
+                        [
+                            -74.13937200000001,
+                            41.043284999999976
+                        ],
+                        [
+                            -74.137968,
+                            41.04609600000003
+                        ],
+                        [
+                            -74.13696899999997,
+                            41.045524000000036
+                        ],
+                        [
+                            -74.13462599999997,
+                            41.047518000000004
+                        ],
+                        [
+                            -74.13387500000002,
+                            41.04696999999995
+                        ],
+                        [
+                            -74.13231999999996,
+                            41.04846700000001
+                        ],
+                        [
+                            -74.12824799999993,
+                            41.04681899999999
+                        ],
+                        [
+                            -74.12733,
+                            41.04872099999998
+                        ],
+                        [
+                            -74.11460899999994,
+                            41.043461999999955
+                        ],
+                        [
+                            -74.11450599999995,
+                            41.045531000000004
+                        ],
+                        [
+                            -74.11717699999997,
+                            41.046057
+                        ],
+                        [
+                            -74.11711100000002,
+                            41.04615500000002
+                        ],
+                        [
+                            -74.12245099999998,
+                            41.04836699999999
+                        ],
+                        [
+                            -74.12267,
+                            41.04991200000001
+                        ],
+                        [
+                            -74.12238600000003,
+                            41.051026
+                        ],
+                        [
+                            -74.12178099999997,
+                            41.050975000000044
+                        ],
+                        [
+                            -74.12137499999994,
+                            41.05201300000004
+                        ],
+                        [
+                            -74.12332300000003,
+                            41.052736
+                        ],
+                        [
+                            -74.123558,
+                            41.05527600000001
+                        ],
+                        [
+                            -74.11770899999993,
+                            41.05301899999997
+                        ],
+                        [
+                            -74.12102700000003,
+                            41.058989000000004
+                        ],
+                        [
+                            -74.12438800000004,
+                            41.06000600000005
+                        ],
+                        [
+                            -74.12445,
+                            41.060274000000014
+                        ],
+                        [
+                            -74.12232099999997,
+                            41.06107700000002
+                        ],
+                        [
+                            -74.122129,
+                            41.061806000000026
+                        ],
+                        [
+                            -74.12214399999999,
+                            41.06342900000002
+                        ],
+                        [
+                            -74.12114600000001,
+                            41.065405000000005
+                        ],
+                        [
+                            -74.12072799999999,
+                            41.067671
+                        ],
+                        [
+                            -74.12069799999998,
+                            41.06869200000002
+                        ],
+                        [
+                            -74.12022200000004,
+                            41.06967699999998
+                        ],
+                        [
+                            -74.11572999999999,
+                            41.06819200000003
+                        ],
+                        [
+                            -74.115523,
+                            41.06959299999996
+                        ],
+                        [
+                            -74.11634900000004,
+                            41.06972400000004
+                        ],
+                        [
+                            -74.11602499999995,
+                            41.07056699999999
+                        ],
+                        [
+                            -74.11572799999999,
+                            41.072742
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        "scope": "county",
+        "country": "'",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255149",
+                "6252001",
+                "5101760",
+                "5095598"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "phq_labels": [
+            {
+                "label": "holiday",
+                "weight": 0.5
+            },
+            {
+                "label": "summer-holiday",
+                "weight": 0.5
+            }
+        ]
+    },
+    {
+        "relevance": 0.0,
+        "id": "3XQtzy2pYTBSE2zMLy",
+        "title": "Disney On Ice - Road Trip Adventures",
+        "description": "Sourced from predicthq.com - Tickets are now on sale to Feld Entertainment Priority Guests. If you would like to join the Priority Guest Program, entitling you to buy tickets today for Disney On Ice presents Road Trip Adventures click on the link to register your details. After signing up, your priority pre-sale code will display on the confirmation page within the web browser. Tickets go on-sale to the general public on Wednesday 1 May 10AM Local Time.",
+        "category": "performing-arts",
+        "labels": [
+            "performing-arts",
+            "skating"
+        ],
+        "rank": 59,
+        "local_rank": 77,
+        "phq_attendance": 2932,
+        "entities": [
+            {
+                "entity_id": "uF6YW4Edvnuq7Ewx9Q7Sds",
+                "name": "WIN Sports & Entertainment Centres",
+                "type": "venue",
+                "formatted_address": "Wollongong NSW 2500\nA'tralia"
+            }
+        ],
+        "duration": 0,
+        "start": "2024-06-22T00:00:00Z",
+        "end": "2024-06-22T00:00:00Z",
+        "predicted_end": "2024-06-22T01:10:00Z",
+        "updated": "2024-03-15T00:07:07Z",
+        "first_seen": "2024-03-07T00:00:37Z",
+        "timezone": "A'tralia/Sydney",
+        "location": [
+            150.9024458,
+            -34.4265113
+        ],
+        "geo": {
+            "geometry": {
+                "coordinates": [
+                    150.9024458,
+                    -34.4265113
+                ],
+                "type": "Point"
+            },
+            "placekey": "@nh2-dnb-dy9"
+        },
+        "impact_patterns": [
+            {
+                "vertical": "accommodation",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 440,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 2932,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-23",
+                        "value": 294,
+                        "position": "lagging"
+                    }
+                ]
+            },
+            {
+                "vertical": "hospitality",
+                "impact_type": "phq_attendance",
+                "impacts": [
+                    {
+                        "date_local": "2024-06-21",
+                        "value": 821,
+                        "position": "leading"
+                    },
+                    {
+                        "date_local": "2024-06-22",
+                        "value": 2932,
+                        "position": "event_day"
+                    },
+                    {
+                        "date_local": "2024-06-23",
+                        "value": 30,
+                        "position": "lagging"
+                    }
+                ]
+            }
+        ],
+        "scope": "locality",
+        "country": "AU",
+        "place_hierarchies": [
+            [
+                "6295630",
+                "6255151",
+                "2077456",
+                "2155400",
+                "7839791",
+                "2151756"
+            ]
+        ],
+        "state": "active",
+        "brand_safe": true,
+        "private": false,
+        "predicted_event_spend": 73976,
+        "predicted_event_spend_ind'tries": {
+            "accommodation": 9525,
+            "hospitality": 23226,
+            "transportation": 41223
+        },
+        "phq_labels": [
+            {
+                "label": "family-theatre",
+                "weight": 1.0
+            }
+        ]
+    }
+]
