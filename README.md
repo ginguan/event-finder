@@ -4,6 +4,8 @@ This project is a local event finder that helps users find events based on their
 
 The backend API of this project consumes the PredictHQ API (https://www.predicthq.com/) to retrieve event data. The Events endpoint is primarily used to provide visibility into real-world events happening at specific locations.
 
+<img src="https://github.com/ginguan/event-finder/assets/22879067/97b49b83-bdf6-4e1b-a46a-c68d935182f9" width="100%" height="70%">
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
