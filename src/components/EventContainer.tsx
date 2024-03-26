@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react'
-import { MenuItem, Select, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableSortLabel, TextField, Tooltip, IconButton, Collapse, Box, Typography, Button } from '@mui/material'
+import { MenuItem, Select, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableSortLabel, TextField, Tooltip, IconButton, Collapse, Box, Typography, Button, TablePagination } from '@mui/material'
 import { DatePicker } from 'antd'
 import type { Dayjs } from 'dayjs'
 import CountryCode from '../CountryCode.json'
 import EventData from '../EventExample.json'
 import dayjs from 'dayjs'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
-import InfoIcon from '@mui/icons-material/Info';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import InfoIcon from '@mui/icons-material/Info'
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
+import { getEvents } from '../api/EventApi'
 
 type Order = 'asc' | 'desc'
 
@@ -28,8 +29,11 @@ const EventContainer: React.FC = () => {
     const [selectedDate, setSelectedDate] = useState<RangeValue>([dayjs(), dayjs()] as RangeValue)
     const [longitude, setLongitude] = useState('')
     const [latitude, setLatitude] = useState('')
-    const [openId, setOpenId] = useState<string>('');
+    const [openId, setOpenId] = useState<string>('')
     const [submitDate, setSubmitDate] = useState<string[]>([])
+    const [page, setPage] = useState(0)
+    const [rowsPerPage, setRowsPerPage] = useState(10)
+    const [totalCount, setTotalCount] = useState(0)
 
     const now = new Date()
     const year = now.getFullYear()
@@ -52,15 +56,30 @@ const EventContainer: React.FC = () => {
     }, [])
 
     useEffect(() => {
-        // ?active.gte=2015-01-01&active.lte=2015-03-01
         if (selectedDate && selectedDate[0] && selectedDate[1]) {
             const formattedStartDate = selectedDate[0].format('YYYY-MM-DD')
             const formattedEndDate = selectedDate[1].format('YYYY-MM-DD')
-            console.log('formattedDate', formattedStartDate, formattedEndDate)
             setSubmitDate([formattedStartDate, formattedEndDate])
         }
     }, [selectedDate])
-
+    
+    const handleChangePage = (event: unknown, newPage: number) => {
+        setPage(newPage)
+      }
+      
+      const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setRowsPerPage(parseInt(event.target.value, 10))
+        setPage(0)
+      }
+      
+    useEffect(() => {
+        getEvents(page + 1, rowsPerPage).then(data => {
+            setEvents(data.events) 
+            setIsLoading(false)
+            setTotalCount(data.totalCount)
+        })
+    }, [page, rowsPerPage])
+      
     const handleRequestSort = (property: keyof typeof EventData[0]) => {
         const isAsc = orderBy === property && order === 'asc'
         const newOrder = isAsc ? 'desc' : 'asc'
@@ -81,9 +100,10 @@ const EventContainer: React.FC = () => {
     const fetchEvents = async () => {
         // Fetch your events here
 
-        const response = await fetch('http://localhost:3001/events') 
-        const data = await response.json()
-        setEvents(data)
+        const data = await getEvents(undefined, undefined, undefined, undefined, undefined, undefined)
+
+        setEvents(data.events) // Update the type of events state variable
+        setTotalCount(data.totalCount)
         setIsLoading(false)
     }
 
@@ -91,10 +111,7 @@ const EventContainer: React.FC = () => {
         return <div>Loading...</div>
     }
 
-
     const handleCountryChange = (value: string) => {
-        // Handle country change here
-        console.log('handleCountryChange', value)
         setSelectedCountry(value)
     }
 
@@ -102,9 +119,10 @@ const EventContainer: React.FC = () => {
         <div>
             <span style={{ margin: '15px' }}>Country: </span>
             <Select
+            
                 value={selectedCountry}
                 onChange={(event) => handleCountryChange(event.target.value as string)}
-                style={{ width: 220 }}
+                style={{ width: 220,margin:'5px',  }}
             >
                 {CountryCode.map((item: any) => (
                     <MenuItem key={item.label} value={item.value}>
@@ -116,48 +134,39 @@ const EventContainer: React.FC = () => {
     )
 
     const handleFilterClick = async () => {
-        console.log(selectedCountry, submitDate, longitude, latitude);
-        let url = 'http://localhost:3001/events?limit=100&page=1'
-        if(latitude && longitude){
-            url += `&origin=${latitude},${longitude}`
-        }
-        if(!latitude && !longitude && selectedCountry){ 
-            url += `&country=${selectedCountry}`
-        }
-        if(submitDate){
-            url += `&active.gte=${submitDate[0]}&active.lte=${submitDate[1]}`
-        }
-        const response = await fetch(url) 
-        const data = await response.json()
-        setEvents(data)
+        const response = await getEvents(undefined, undefined, selectedCountry, submitDate, longitude, latitude)
+        const { events, totalCount } = response
+        setEvents(events)
+        setTotalCount(totalCount)
         setIsLoading(false)
-      };
-    
+        setPage(0)
+    }
+
     const getToolTip = (message: string) => {
         return (
-        <Tooltip title={message} style={{ marginTop: '8px' }}>
-            <IconButton>
-                <InfoIcon />
-            </IconButton>
-        </Tooltip>
+            <Tooltip title={message} style={{ marginTop: '8px' }}>
+                <IconButton>
+                    <InfoIcon />
+                </IconButton>
+            </Tooltip>
         )
     }
     const handleOpen = (id: string) => {
-        setOpenId(openId === id ? '' : id);
-    };
+        setOpenId(openId === id ? '' : id)
+    }
     return (
         <div>
             <div style={{
                 display: 'flex',
                 alignItems: 'flex-start',
                 justifyContent: 'flex-start',
-                margin: '10px'
+                margin: '5%'
             }}>
                 {countryDropdown()}
                 {getToolTip('If Country and Coordinates are selected, the events will be filtered based on the selected Coordinates')}
                 <span style={{ margin: '18px' }}>Date Range: </span>
                 <RangePicker
-                    style={{ width: 400, height: 55, }}
+                    style={{ margin:'5px', width: 400, height: 55, }}
                     id={{
                         start: 'startInput',
                         end: 'endInput',
@@ -167,13 +176,13 @@ const EventContainer: React.FC = () => {
                     onChange={setSelectedDate}
                 />
 
-            </div>
+            {/* </div>
             <div style={{
                 display: 'flex',
                 alignItems: 'flex-start',
                 justifyContent: 'flex-start',
                 margin: '10px'
-            }}>
+            }}> */}
                 <span style={{ margin: '18px' }}>Coordinates: </span>
                 <TextField
                     style={{ margin: '5px' }}
@@ -189,17 +198,16 @@ const EventContainer: React.FC = () => {
                     value={longitude}
                     onChange={(e) => setLongitude(e.target.value)}
                 />
-               
                 <Button style={{ margin: '15px' }} variant="contained" onClick={handleFilterClick}>Filter</Button>
-    
             </div>
-            <div style={{ margin: '5%' }}>
+            <div style={{ marginLeft: '5%', marginRight: '5%' }}>
+                <h1>Event Finder</h1>
                 {events && (
                     <TableContainer>
                         <Table>
                             <TableHead>
                                 <TableRow>
-                                <TableCell/>
+                                    <TableCell />
                                     <TableCell>
                                         <TableSortLabel
                                             active={orderBy === 'title'}
@@ -243,7 +251,6 @@ const EventContainer: React.FC = () => {
                                 {events.map((event: { id: string, title: string, start: string, end: string, labels: string[], state: string, geo: any, description: string }) => {
                                     const latitude = event.geo.geometry.coordinates[0]
                                     const longitude = event.geo.geometry.coordinates[1]
-                                    console.log(event.id,'latitude', latitude, 'longitude', longitude)
                                     return (
                                         <><TableRow key={event.id}>
                                             <TableCell>
@@ -266,13 +273,16 @@ const EventContainer: React.FC = () => {
                                                                 <Typography variant="h6" gutterBottom component="div">
                                                                     Description
                                                                 </Typography>
-                                                                <Typography>{event.description}</Typography></div>
-                                                            <Typography variant="h6" gutterBottom component="div" style={{marginTop:'5px'}}>
-                                                                Location
-                                                            </Typography>
-                                                            <div id="google-maps-display" style={{ height: '100%', width: '100%', maxWidth: '100%' }}>
-                                                                <iframe src={`https://maps.google.com/maps?q=${longitude},${latitude}&amp;t=&amp;z=3&amp;ie=UTF8&amp;iwloc=&amp;&output=embed`} width='1000' height='250px' allowFullScreen></iframe>
+                                                                <Typography>{event.description}</Typography>
                                                             </div>
+
+                                                            {latitude && longitude &&
+                                                                <div id="google-maps-display" style={{ height: '100%', width: '100%', maxWidth: '100%' }}>
+                                                                    <Typography variant="h6" gutterBottom component="div" style={{ marginTop: '5px' }}>
+                                                                        Location
+                                                                    </Typography>
+                                                                    <iframe src={`https://maps.google.com/maps?q=${longitude},${latitude}&ampt=&ampz=3&ampie=UTF8&ampiwloc=&amp&output=embed`} width='1000' height='250px' allowFullScreen></iframe>
+                                                                </div>}
                                                         </Box>
                                                     </Collapse>
                                                 </TableCell>
@@ -281,6 +291,15 @@ const EventContainer: React.FC = () => {
                                 })}
                             </TableBody>
                         </Table>
+                        <TablePagination
+                            rowsPerPageOptions={[5, 10, 25]}
+                            component="div"
+                            count={totalCount}
+                            rowsPerPage={rowsPerPage}
+                            page={page}
+                            onPageChange={handleChangePage}
+                            onRowsPerPageChange={handleChangeRowsPerPage}
+                        />
                     </TableContainer>
 
                 )}

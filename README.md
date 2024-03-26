@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Local Event Finder
+
+This project is a local event finder that helps users find events based on their chosen country or coordinates and time range. Users can search for events in their local area and discover upcoming events.
+
+The backend API of this project consumes the PredictHQ API (https://www.predicthq.com/) to retrieve event data. The Events endpoint is primarily used to provide visibility into real-world events happening at specific locations.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,3 +50,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
