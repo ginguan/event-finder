@@ -15,7 +15,7 @@ export async function getEvents( selectedCountry='', submitDate = [] as string[]
         }
         const response = await axios.get(url)
 
-        const totalCount = response.data.totalCount
+        const totalCount = response.data.events.length
         const events = response.data.events
         return {
             events,
