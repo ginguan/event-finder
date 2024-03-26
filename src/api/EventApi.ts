@@ -1,12 +1,9 @@
 import axios from 'axios'
 
-export async function getEvents(page:any, limit:any, selectedCountry='', submitDate = [] as string[], longitude='', latitude='') {
+export async function getEvents( selectedCountry='', submitDate = [] as string[], longitude='', latitude='') {
     try {
         let url = `http://localhost:3001/events?`
 
-        if(limit && page){
-            url += `&limit=${limit}&page=${page}`
-        }
         if(latitude && longitude){
             url += `&origin=${latitude},${longitude}`
         }

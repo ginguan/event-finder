@@ -10,6 +10,8 @@ import InfoIcon from '@mui/icons-material/Info'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 import { getEvents } from '../api/EventApi'
+import LabelColor from '../LabelColor.json'
+import { stringify } from 'querystring'
 
 type Order = 'asc' | 'desc'
 
@@ -34,11 +36,12 @@ const EventContainer: React.FC = () => {
     const [page, setPage] = useState(0)
     const [rowsPerPage, setRowsPerPage] = useState(10)
     const [totalCount, setTotalCount] = useState(0)
-
+    const labelColor = LabelColor as {[key: string]: string}
     const now = new Date()
     const year = now.getFullYear()
     const month = String(now.getMonth() + 1).padStart(2, '0')
     const day = String(now.getDate()).padStart(2, '0')
+    const [allEvents, setAllEvents] = useState([]);
 
     const formattedDate = `${year}-${month}-${day}`
 
@@ -54,7 +57,7 @@ const EventContainer: React.FC = () => {
         fetchEvents()
         setSubmitDate([formattedDate, formattedDate7daysAfter])
     }, [])
-
+    console.log(events)
     useEffect(() => {
         if (selectedDate && selectedDate[0] && selectedDate[1]) {
             const formattedStartDate = selectedDate[0].format('YYYY-MM-DD')
@@ -62,24 +65,37 @@ const EventContainer: React.FC = () => {
             setSubmitDate([formattedStartDate, formattedEndDate])
         }
     }, [selectedDate])
-    
-    const handleChangePage = (event: unknown, newPage: number) => {
-        setPage(newPage)
-      }
+    useEffect(() => {
+        const fetchEvents = async () => {
+          const { events } = await getEvents(selectedCountry, submitDate, longitude, latitude);
+          const start = page * rowsPerPage;
+          const end = start + rowsPerPage;
+          setEvents(events.slice(start, end));
+        };
       
-      const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {
+        fetchEvents();
+      }, [page, rowsPerPage]);
+
+    const handleChangePage = (event: unknown, newPage: number) => {
+        setPage(newPage);
+        const start = newPage * rowsPerPage;
+        const end = start + rowsPerPage;
+        setEvents(allEvents.slice(start, end));
+      };
+
+    const handleChangeRowsPerPage = (event: React.ChangeEvent<HTMLInputElement>) => {
         setRowsPerPage(parseInt(event.target.value, 10))
         setPage(0)
-      }
-      
-    useEffect(() => {
-        getEvents(page + 1, rowsPerPage).then(data => {
-            setEvents(data.events) 
-            setIsLoading(false)
-            setTotalCount(data.totalCount)
-        })
-    }, [page, rowsPerPage])
-      
+    }
+
+    // useEffect(() => {
+    //     getEvents(selectedCountry, submitDate, longitude, latitude).then(data => {
+    //         setEvents(data.events)
+    //         setIsLoading(false)
+    //         setTotalCount(data.totalCount)
+    //     })
+    // }, [selectedCountry, submitDate, longitude, latitude])
+
     const handleRequestSort = (property: keyof typeof EventData[0]) => {
         const isAsc = orderBy === property && order === 'asc'
         const newOrder = isAsc ? 'desc' : 'asc'
@@ -100,7 +116,7 @@ const EventContainer: React.FC = () => {
     const fetchEvents = async () => {
         // Fetch your events here
 
-        const data = await getEvents(undefined, undefined, undefined, undefined, undefined, undefined)
+        const data = await getEvents(undefined, undefined, undefined, undefined)
 
         setEvents(data.events) // Update the type of events state variable
         setTotalCount(data.totalCount)
@@ -119,10 +135,10 @@ const EventContainer: React.FC = () => {
         <div>
             <span style={{ margin: '15px' }}>Country: </span>
             <Select
-            
+
                 value={selectedCountry}
                 onChange={(event) => handleCountryChange(event.target.value as string)}
-                style={{ width: 220,margin:'5px',  }}
+                style={{ width: 220, margin: '5px', }}
             >
                 {CountryCode.map((item: any) => (
                     <MenuItem key={item.label} value={item.value}>
@@ -134,7 +150,7 @@ const EventContainer: React.FC = () => {
     )
 
     const handleFilterClick = async () => {
-        const response = await getEvents(undefined, undefined, selectedCountry, submitDate, longitude, latitude)
+        const response = await getEvents(selectedCountry, submitDate, longitude, latitude)
         const { events, totalCount } = response
         setEvents(events)
         setTotalCount(totalCount)
@@ -166,7 +182,7 @@ const EventContainer: React.FC = () => {
                 {getToolTip('If Country and Coordinates are selected, the events will be filtered based on the selected Coordinates')}
                 <span style={{ margin: '18px' }}>Date Range: </span>
                 <RangePicker
-                    style={{ margin:'5px', width: 400, height: 55, }}
+                    style={{ margin: '5px', width: 400, height: 55, }}
                     id={{
                         start: 'startInput',
                         end: 'endInput',
@@ -176,7 +192,7 @@ const EventContainer: React.FC = () => {
                     onChange={setSelectedDate}
                 />
 
-            {/* </div>
+                {/* </div>
             <div style={{
                 display: 'flex',
                 alignItems: 'flex-start',
@@ -261,7 +277,15 @@ const EventContainer: React.FC = () => {
                                             <TableCell>{event.title}</TableCell>
                                             <TableCell>{dayjs(event.start).format('YYYY-MM-DD hh:mm A')}</TableCell>
                                             <TableCell>{dayjs(event.end).format('YYYY-MM-DD hh:mm A')}</TableCell>
-                                            <TableCell>{event.labels.join(', ')}</TableCell>
+                                            {/* <TableCell>{event.labels.join(', ')}</TableCell> */}
+                                            <TableCell>
+                                                {event.labels.map((label, index) => (
+                                                    <span key={index} style={{ color: labelColor[label] || 'black' }}>
+                                                        {label}
+                                                        {index < event.labels.length - 1 ? ', ' : ''}
+                                                    </span>
+                                                ))}
+                                            </TableCell>
                                             <TableCell>
                                                 <span style={{ color: event.state === 'active' ? 'green' : 'red' }}>{event.state.toUpperCase()}</span>
                                             </TableCell>
